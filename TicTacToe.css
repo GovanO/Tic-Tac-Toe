@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.game-board {
+  position: absolute;
+  margin: 0 auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 15px;
+  background-color: teal;
+}
+.grid-cell {
+  position: relative;
+  text-align: center;
+  height: 225px;
+  width: 185px;
+  cursor: pointer;
+  background: lightblue;
+}
+.x::after {
+  content: "\00D7";
+  font-size: 250px;
+  color: red;
+  position: relative;
+  bottom: 15%;
+}
+.o::after {
+  content: "\25EF";
+  font-size: 130px;
+  color: black;
+  position: relative;
+  top: 18%;
+}
