@@ -3,4 +3,4 @@ Game to remember old good times
 
 # FOR EVERYONE
 
-To enjoy. TO ENJOY!
+To enjoy. TO ENJOY! :D
